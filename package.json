@@ -5,7 +5,6 @@
   "main": "index.ts",
   "scripts": {
     "build": "tsc",
-    "postinstall": "npm run build",
     "start": "node dist/index.js"
   },
   "author": "",
