@@ -4,11 +4,11 @@
         "target": "es2015",
         "module": "CommonJS",
         "strict": true,
-        "outDir": "/dist",
-        "baseUrl": "./server/src"
+        "outDir": "./dist",
+        "baseUrl": "./server"
     },
     "include": [
-        "server/src/**/*"
+        "server/**/*"
     ],
     "exclude": [
         "node_modules"

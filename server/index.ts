@@ -2,8 +2,6 @@ import * as express from 'express';
 
 const app = express();
 
-
-
 app.get('/text', (_: express.Request, response: express.Response) => {
   response.send('Hello world!');
 });
