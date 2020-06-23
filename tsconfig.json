@@ -4,7 +4,7 @@
         "target": "es2015",
         "module": "CommonJS",
         "strict": true,
-        "outDir": "./server/dist",
+        "outDir": "/dist",
         "baseUrl": "./server/src"
     },
     "include": [
