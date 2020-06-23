@@ -6,11 +6,11 @@
         "request": "launch",
         "name": "Debug TypeScript in Node.js",
         "preLaunchTask": "tsc: build - tsconfig.json",
-        "program": "${workspaceFolder}/src/index.ts",
+        "program": "${workspaceFolder}/server/src/index.ts",
         "cwd": "${workspaceFolder}",
         "protocol": "inspector",
         "outFiles": [
-          "${workspaceFolder}/dist/**/*.js"
+          "${workspaceFolder}/server//dist/**/*.js"
         ]
       }
     ]
