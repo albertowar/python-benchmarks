@@ -1,6 +1,6 @@
 aiohttp==3.6.2
 aiohttp[speedups]
 uvloop==0.14.0
-gevent==20.6.2
+gevent==23.9.1
 geventhttpclient==1.4.2
 vprof==0.38
